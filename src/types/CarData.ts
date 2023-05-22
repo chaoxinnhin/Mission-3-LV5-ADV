@@ -1,5 +1,8 @@
 export interface CarData {
-    model: string;
-    year: number;
-    car_value: number;
-  }
+  model: string;
+  year: number;
+  car_value: number;
+}[]
+
+
+

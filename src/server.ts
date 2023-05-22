@@ -1,23 +1,13 @@
 import express from "express";
 import env from "dotenv";
-import * as carValueAPI from "./carValueAPI";
-import { Request, Response } from "express";
-
-let carInfo = {
-  model: " ",
-  year:0 ,
-  car_value: 0,
-};
+import { calculateCarValue } from "./controller/carValueController";
 
 env.config();
 
 const server = express();
 server.use(express.json());
 
-server.use("/api/car_value", (req: Request, res: Response) => {
-  const value = carValueAPI.calculateCarValue(carInfo);
-  res.send(value);
-});
+server.use("/api/car_value", calculateCarValue);
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
