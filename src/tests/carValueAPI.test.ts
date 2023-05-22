@@ -1,7 +1,7 @@
 import { error } from "console";
-import { calculateCarValue } from "../carValueAPI";
+import { calculateCarValue } from "../services/carValueAPIServices";
 
-const carValueAPI = require("../carValueAPI");
+const carValueAPI = require("../services/carValueAPIServices");
 
 test("Adds the Ferrari value and 2014 value to equal to 9514", () => {
   // Arrange
@@ -63,10 +63,10 @@ test("Adds Bt-50D value and 2010 value to equal to 1410", () => {
   expect(actual).toEqual(expected);
 });
 
-test("Adds 205 value and 2015 value to equal to 2015", () => {
+test("Adds 305 value and 2015 value to equal to 2015", () => {
   // Arrange
   const input = {
-    model: "123",
+    model: "305",
     year: 2015,
     car_value: 0,
   };

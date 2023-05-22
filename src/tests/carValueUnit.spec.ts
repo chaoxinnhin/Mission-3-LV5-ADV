@@ -1,5 +1,4 @@
-import { calculateCarValue } from "../carValueAPI";
-import { FerrariCarInfo } from "../services/carValueServices";
+import { calculateCarValue } from "../services/carValueAPIServices";
 import { CarData } from "../types/CarData";
 
 // Unit test 1
