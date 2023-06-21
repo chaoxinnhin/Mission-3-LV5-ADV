@@ -90,7 +90,7 @@ TS-Node
 You can copy the link by clicking on code and it should reveal the link. Once you have copied the code, hop into your Visual Studio Code and type in your terminal
 
 ```
- git clone https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
+ git clone https://github.com/chaoxinnhin/Mission-3-LV5-ADV.git
 ```
 
 That should clone this repository into your files. Make sure to open the directory into your terminal and enter the following:
@@ -112,6 +112,7 @@ In case you haven't installed Node packages and testing kits for typescript, jus
 ```
 https://jestjs.io/docs/getting-started
 ```
+```
 yarn add -D typescript ts-node-dev @types/node @types/express
 ```
 
@@ -119,8 +120,8 @@ yarn add -D typescript ts-node-dev @types/node @types/express
 
 ## Contact
 
-Chao Xin - chaon@missionreadyhq.com
+Chao Xin - chaoxin.nhin@gmail.com
 
-Project Link: https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
+Project Link: https://github.com/chaoxinnhin/Mission-3-LV5-ADV.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
